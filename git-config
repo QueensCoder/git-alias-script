@@ -9,11 +9,15 @@ git config --global alias.st status
 git config --global alias.pom "pull origin master"
 git config --global alias.rbm "rebase master"
 git config --global alias.com "checkout master"
+git config --global alias.pm "pull origin main"
+git config --global alias.rbme "rebase main"
+git config --global alias.come "checkout main"
 git config --global alias.cob "checkout -b"
 git config --global alias.del "branch -D"
 git config --global alias.sq "rebase -i HEAD~"
 git config --global alias.am "commit --amend"
 git config --global alias.burn "!git branch | grep -v "master" | xargs git branch -D"
+git config --global alias.burnfe "!git branch | grep -v "main" | xargs git branch -D"
 
 
 echo "completed"
